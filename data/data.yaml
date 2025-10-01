@@ -1,0 +1,145 @@
+envmatrices:
+- aggregation_target: false
+  id: air
+  short_name: air
+  name: Ambient air
+  parent_matrix:
+  unique_name: air
+- aggregation_target: false
+  id: airgas
+  short_name: airgas
+  name: Air - Gas phase
+  parent_matrix: air
+  unique_name: airgas
+- aggregation_target: false
+  id: airtsp
+  short_name: airtsp
+  name: Air - Total suspended particles
+  parent_matrix: air
+  unique_name: airtsp
+- aggregation_target: false
+  id: airpm10
+  short_name: airpm10
+  name: Air - PM10
+  parent_matrix: air 
+  unique_name: airpm10
+- aggregation_target: false
+  id: airpm2.5
+  short_name: airpm2.5
+  name: Air - PM2.5
+  parent_matrix: air
+  unique_name: airpm2.5
+- aggregation_target: false
+  id: airpas
+  short_name: airpas
+  name: Air - Passive air
+  parent_matrix: air
+  unique_name: airpas
+- aggregation_target: false
+  id: airtot
+  short_name: airtot
+  name: Air - Total
+  parent_matrix: air 
+  unique_name: airtot
+- aggregation_target: false
+  id: precip
+  short_name: precip
+  name: Precipitation
+  parent_matrix: 
+  unique_name: precip
+- aggregation_target: false
+  id: preciptot
+  short_name: preciptot
+  name: Precipitation - Total
+  parent_matrix: precip
+  unique_name: preciptot
+- aggregation_target: false
+  id: precipwet
+  short_name: precipwet
+  name: Precipitation - Wet
+  parent_matrix: precip
+  unique_name: precipwet
+- aggregation_target: false
+  id: water
+  short_name: water
+  name: Water
+  parent_matrix:
+  unique_name: water
+- aggregation_target: false
+  id: watertot
+  short_name: watertot
+  name: Water - Total
+  parent_matrix: water
+  unique_name: watertot
+- aggregation_target: false
+  id: waterpas
+  short_name: waterpas
+  name: Water - Passive
+  parent_matrix: water
+  unique_name: waterpas
+- aggregation_target: false
+  id: sed
+  short_name: sed
+  name: Sediment
+  parent_matrix: 
+  unique_name: sed
+- aggregation_target: false
+  id: sedtot
+  short_name: sedtot
+  name: Sediment - Total
+  parent_matrix: sed
+  unique_name: sedtot
+- aggregation_target: false
+  id: soil
+  short_name: soil
+  name: Soil
+  parent_matrix: 
+  unique_name: soil
+- aggregation_target: false
+  id: soilhoro
+  short_name: soilhoro
+  name: Soil - O Horizon (Organic)
+  parent_matrix: soil
+  unique_name: soilhoro
+- aggregation_target: false
+  id: soilhora
+  short_name: soilhora
+  name: Soil - A Horizon (Topsoil)
+  parent_matrix: soil
+  unique_name: soilhora
+- aggregation_target: false
+  id: soilhore
+  short_name: soilhore
+  name: Soil - E Horizon (Eluviation)
+  parent_matrix: soil
+  unique_name: soilhore
+- aggregation_target: false
+  id: soilhorb
+  short_name: soilhorb
+  name: Soil - B Horizon (Subsoil)
+  parent_matrix: soil
+  unique_name: soilhorb
+- aggregation_target: false
+  id: soilhorc
+  short_name: soilhorc
+  name: Soil - C Horizon (Parent material)
+  parent_matrix: soil
+  unique_name: soilhorc
+- aggregation_target: false
+  id: soilhorr
+  short_name: soilhorr
+  name: Soil - R Horizon (Bedrock)
+  parent_matrix: soil
+  unique_name: soilhorr
+- aggregation_target: false
+  id: soilhors
+  short_name: soilhors
+  name: Soil - S Horizon (Mineral)
+  parent_matrix: soil
+  unique_name: soilhors
+- aggregation_target: false
+  id: soilhorh
+  short_name: soilhorh
+  name: Soil - H Horizon (Peat)
+  parent_matrix: soil
+  unique_name: soilhorh
