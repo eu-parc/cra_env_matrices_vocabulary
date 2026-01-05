@@ -9,19 +9,19 @@ envmatrices:
   id: 
   short_name: outdoorair
   name: Outdoor air
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: outdoorair
 - aggregation_target: false
   id: 
   short_name: indoorair
   name: Indoor air
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: indoorair
 - aggregation_target: false
   id: 
   short_name: indoordust
   name: Indoor dust
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: indoordust   
 - aggregation_target: false
   id: https://w3id.org/crahub/MA--8c532f04de
