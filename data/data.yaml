@@ -6,55 +6,55 @@ envmatrices:
   parent_matrix: null
   unique_name: air
 - aggregation_target: false
-  id: 
+  id: outdoorair
   short_name: outdoorair
   name: Outdoor air
   parent_matrix: air
   unique_name: outdoorair
 - aggregation_target: false
-  id: 
+  id: indoorair
   short_name: indoorair
   name: Indoor air
   parent_matrix: air
   unique_name: indoorair
 - aggregation_target: false
-  id: 
+  id: indoordust
   short_name: indoordust
   name: Indoor dust
   parent_matrix: air
   unique_name: indoordust   
 - aggregation_target: false
-  id:
+  id: airgas
   short_name: airgas
   name: Air - Gas phase
   parent_matrix: air
   unique_name: airgas
 - aggregation_target: false
-  id:
+  id: airtsp
   short_name: airtsp
   name: Air - Total suspended particles
   parent_matrix: air
   unique_name: airtsp
 - aggregation_target: false
-  id:
+  id: airpm10
   short_name: airpm10
   name: Air - PM10
   parent_matrix: air
   unique_name: airpm10
 - aggregation_target: false
-  id:
+  id: airpm2.5
   short_name: airpm2.5
   name: Air - PM2.5
   parent_matrix: air
   unique_name: airpm2.5
 - aggregation_target: false
-  id:
+  id: airpas
   short_name: airpas
   name: Air - Passive air
   parent_matrix: air
   unique_name: airpas
 - aggregation_target: false
-  id:
+  id: airtot
   short_name: airtot
   name: Air - Total
   parent_matrix: air
@@ -66,13 +66,13 @@ envmatrices:
   parent_matrix: null
   unique_name: atmdeposition
 - aggregation_target: false
-  id: 
+  id: depositiontot
   short_name: depositiontot
   name: Atmospheric deposition - Total
   parent_matrix: atmdeposition
   unique_name: depositiontot
 - aggregation_target: false
-  id: 
+  id: depositionwet
   short_name: depositionwet
   name: Atmospheric deposition - Wet
   parent_matrix: atmdeposition
@@ -84,13 +84,13 @@ envmatrices:
   parent_matrix: null
   unique_name: water
 - aggregation_target: false
-  id: 
+  id: watertot
   short_name: watertot
   name: Water - Total
   parent_matrix: water
   unique_name: watertot
 - aggregation_target: false
-  id: 
+  id: waterpas
   short_name: waterpas
   name: Water - Passive
   parent_matrix: water
@@ -102,7 +102,7 @@ envmatrices:
   parent_matrix: null
   unique_name: sed
 - aggregation_target: false
-  id: 
+  id: sedtot
   short_name: sedtot
   name: Sediment - Total
   parent_matrix: sed
@@ -114,49 +114,49 @@ envmatrices:
   parent_matrix: null
   unique_name: soil
 - aggregation_target: false
-  id: 
+  id: oilhoro
   short_name: soilhoro
   name: Soil - O Horizon (Organic)
   parent_matrix: soil
   unique_name: soilhoro
 - aggregation_target: false
-  id: 
+  id: soilhora
   short_name: soilhora
   name: Soil - A Horizon (Topsoil)
   parent_matrix: soil
   unique_name: soilhora
 - aggregation_target: false
-  id: 
+  id: soilhore
   short_name: soilhore
   name: Soil - E Horizon (Eluviation)
   parent_matrix: soil
   unique_name: soilhore
 - aggregation_target: false
-  id: 
+  id: soilhorb
   short_name: soilhorb
   name: Soil - B Horizon (Subsoil)
   parent_matrix: soil
   unique_name: soilhorb
 - aggregation_target: false
-  id: 
+  id: soilhorc
   short_name: soilhorc
   name: Soil - C Horizon (Parent material)
   parent_matrix: soil
   unique_name: soilhorc
 - aggregation_target: false
-  id: 
+  id: soilhorr
   short_name: soilhorr
   name: Soil - R Horizon (Bedrock)
   parent_matrix: soil
   unique_name: soilhorr
 - aggregation_target: false
-  id: 
+  id: soilhors
   short_name: soilhors
   name: Soil - S Horizon (Mineral)
   parent_matrix: soil
   unique_name: soilhors
 - aggregation_target: false
-  id: 
+  id: soilhorh
   short_name: soilhorh
   name: Soil - H Horizon (Peat)
   parent_matrix: soil
