@@ -1,163 +1,163 @@
 envmatrices:
 - aggregation_target: false
-  id: air
+  id: https://w3id.org/crahub/MA--3c45881163
   short_name: air
   name: Ambient air
   parent_matrix: null
   unique_name: air
 - aggregation_target: false
-  id: outdoorair
+  id: https://w3id.org/crahub/MA--95cadb5d31
   short_name: outdoorair
   name: Outdoor air
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: outdoorair
 - aggregation_target: false
-  id: indoorair
+  id: https://w3id.org/crahub/MA--b79ecc0e22
   short_name: indoorair
   name: Indoor air
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: indoorair
 - aggregation_target: false
-  id: indoordust
+  id: https://w3id.org/crahub/MA--58c64e2d44
   short_name: indoordust
   name: Indoor dust
-  parent_matrix: air
-  unique_name: indoordust   
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
+  unique_name: indoordust
 - aggregation_target: false
-  id: airgas
+  id: https://w3id.org/crahub/MA--8c532f04de
   short_name: airgas
   name: Air - Gas phase
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airgas
 - aggregation_target: false
-  id: airtsp
+  id: https://w3id.org/crahub/MA--ea968209af
   short_name: airtsp
   name: Air - Total suspended particles
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airtsp
 - aggregation_target: false
-  id: airpm10
+  id: https://w3id.org/crahub/MA--1af14554e2
   short_name: airpm10
   name: Air - PM10
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airpm10
 - aggregation_target: false
-  id: airpm2.5
+  id: https://w3id.org/crahub/MA--70150bb964
   short_name: airpm2.5
   name: Air - PM2.5
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airpm2.5
 - aggregation_target: false
-  id: airpas
+  id: https://w3id.org/crahub/MA--3a6aedfe20
   short_name: airpas
   name: Air - Passive air
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airpas
 - aggregation_target: false
-  id: airtot
+  id: https://w3id.org/crahub/MA--d63f6b6b2d
   short_name: airtot
   name: Air - Total
-  parent_matrix: air
+  parent_matrix: https://w3id.org/crahub/MA--3c45881163
   unique_name: airtot
 - aggregation_target: false
-  id: atmdeposition
+  id: https://w3id.org/crahub/MA--6f320453e7
   short_name: atmdeposition
   name: Atmospheric deposition
   parent_matrix: null
   unique_name: atmdeposition
 - aggregation_target: false
-  id: depositiontot
+  id: https://w3id.org/crahub/MA--f1fea5427f
   short_name: depositiontot
   name: Atmospheric deposition - Total
-  parent_matrix: atmdeposition
+  parent_matrix: https://w3id.org/crahub/MA--6f320453e7
   unique_name: depositiontot
 - aggregation_target: false
-  id: depositionwet
+  id: https://w3id.org/crahub/MA--640f7932d7
   short_name: depositionwet
   name: Atmospheric deposition - Wet
-  parent_matrix: atmdeposition
+  parent_matrix: https://w3id.org/crahub/MA--6f320453e7
   unique_name: depositionwet
 - aggregation_target: false
-  id: water
+  id: https://w3id.org/crahub/MA--9460370bb0
   short_name: water
   name: Water
   parent_matrix: null
   unique_name: water
 - aggregation_target: false
-  id: watertot
+  id: https://w3id.org/crahub/MA--f53c2b7989
   short_name: watertot
   name: Water - Total
-  parent_matrix: water
+  parent_matrix: https://w3id.org/crahub/MA--9460370bb0
   unique_name: watertot
 - aggregation_target: false
-  id: waterpas
+  id: https://w3id.org/crahub/MA--e629bb155a
   short_name: waterpas
   name: Water - Passive
-  parent_matrix: water
+  parent_matrix: https://w3id.org/crahub/MA--9460370bb0
   unique_name: waterpas
 - aggregation_target: false
-  id: sed
+  id: https://w3id.org/crahub/MA--177544aa79
   short_name: sed
   name: Sediment
   parent_matrix: null
   unique_name: sed
 - aggregation_target: false
-  id: sedtot
+  id: https://w3id.org/crahub/MA--24bfc0a159
   short_name: sedtot
   name: Sediment - Total
-  parent_matrix: sed
+  parent_matrix: https://w3id.org/crahub/MA--177544aa79
   unique_name: sedtot
 - aggregation_target: false
-  id: soil
+  id: https://w3id.org/crahub/MA--cf6c9df68d
   short_name: soil
   name: Soil
   parent_matrix: null
   unique_name: soil
 - aggregation_target: false
-  id: oilhoro
+  id: https://w3id.org/crahub/MA--c4ea47d727
   short_name: soilhoro
   name: Soil - O Horizon (Organic)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhoro
 - aggregation_target: false
-  id: soilhora
+  id: https://w3id.org/crahub/MA--ba6044eba9
   short_name: soilhora
   name: Soil - A Horizon (Topsoil)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhora
 - aggregation_target: false
-  id: soilhore
+  id: https://w3id.org/crahub/MA--431b9fd798
   short_name: soilhore
   name: Soil - E Horizon (Eluviation)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhore
 - aggregation_target: false
-  id: soilhorb
+  id: https://w3id.org/crahub/MA--dda967a988
   short_name: soilhorb
   name: Soil - B Horizon (Subsoil)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhorb
 - aggregation_target: false
-  id: soilhorc
+  id: https://w3id.org/crahub/MA--8d0b9f2396
   short_name: soilhorc
   name: Soil - C Horizon (Parent material)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhorc
 - aggregation_target: false
-  id: soilhorr
+  id: https://w3id.org/crahub/MA--6bb4a181bd
   short_name: soilhorr
   name: Soil - R Horizon (Bedrock)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhorr
 - aggregation_target: false
-  id: soilhors
+  id: https://w3id.org/crahub/MA--de9f09d1b4
   short_name: soilhors
   name: Soil - S Horizon (Mineral)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhors
 - aggregation_target: false
-  id: soilhorh
+  id: https://w3id.org/crahub/MA--ae70588dc8
   short_name: soilhorh
   name: Soil - H Horizon (Peat)
-  parent_matrix: soil
+  parent_matrix: https://w3id.org/crahub/MA--cf6c9df68d
   unique_name: soilhorh
