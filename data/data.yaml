@@ -43,22 +43,22 @@ envmatrices:
   unique_name: airtot
 - aggregation_target: false
   id: https://w3id.org/crahub/MA--6db4b42f78
-  short_name: precip
-  name: Precipitation
+  short_name: deposition
+  name: Atmospheric deposition
   parent_matrix: null
-  unique_name: precip
+  unique_name: deposition
 - aggregation_target: false
   id: https://w3id.org/crahub/MA--6b962d16e2
-  short_name: preciptot
-  name: Precipitation - Total
+  short_name: depositiontot
+  name: Atmospheric deposition - Total
   parent_matrix: https://w3id.org/crahub/MA--6db4b42f78
-  unique_name: preciptot
+  unique_name: depositiontot
 - aggregation_target: false
   id: https://w3id.org/crahub/MA--e3a97705db
-  short_name: precipwet
-  name: Precipitation - Wet
+  short_name: depositionwet
+  name: Atmospheric deposition - Wet
   parent_matrix: https://w3id.org/crahub/MA--6db4b42f78
-  unique_name: precipwet
+  unique_name: depositionwet
 - aggregation_target: false
   id: https://w3id.org/crahub/MA--9460370bb0
   short_name: water
