@@ -1,6 +1,6 @@
 envmatrices:
 - aggregation_target: false
-  id:
+  id: air
   short_name: air
   name: Ambient air
   parent_matrix: null
@@ -60,7 +60,7 @@ envmatrices:
   parent_matrix: air
   unique_name: airtot
 - aggregation_target: false
-  id:
+  id: atmdeposition
   short_name: atmdeposition
   name: Atmospheric deposition
   parent_matrix: null
@@ -78,7 +78,7 @@ envmatrices:
   parent_matrix: atmdeposition
   unique_name: depositionwet
 - aggregation_target: false
-  id: 
+  id: water
   short_name: water
   name: Water
   parent_matrix: null
@@ -96,7 +96,7 @@ envmatrices:
   parent_matrix: water
   unique_name: waterpas
 - aggregation_target: false
-  id: 
+  id: sed
   short_name: sed
   name: Sediment
   parent_matrix: null
@@ -108,7 +108,7 @@ envmatrices:
   parent_matrix: sed
   unique_name: sedtot
 - aggregation_target: false
-  id: 
+  id: soil
   short_name: soil
   name: Soil
   parent_matrix: null
