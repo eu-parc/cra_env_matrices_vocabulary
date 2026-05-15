@@ -1,4 +1,4 @@
-# This vocabulary has been superseded"
+# This vocabulary has been superseded
 See: https://github.com/eu-parc/matrix-vocabulary
 
 
